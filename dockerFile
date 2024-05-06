@@ -1,0 +1,6 @@
+# 使用官方 MongoDB 映像
+FROM mongo:latest
+
+# 安裝 MongoDB 客戶端
+RUN apt-get update && apt-get install -y mongodb-clients
+
